@@ -1,0 +1,23 @@
+{
+    "name": "rookie/reptile",
+    "description": "reptile books",
+    "authors": [
+        {
+            "name": "rookiesky",
+            "email": "1332305055@qq.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "require": {
+        "qiniu/php-sdk": "^7.2",
+        "catfan/medoo": "^1.6",
+        "sentry/sentry": "^1.10"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
